@@ -14,7 +14,7 @@
 
 ![App Screenshot](https://res.cloudinary.com/derjpiaah/image/upload/v1590239387/dashboard-poke_j5oqsf.png)
 
-<center><h3><a href="https://gitbubexplorer.netlify.app/">View Demo</a></h3></center>
+<center><h3><a href="https://pokesearchh.netlify.app/">View Demo</a></h3></center>
 
 ## :rocket: Technologies
 
