@@ -1,44 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Pokesearch" src="https://res.cloudinary.com/derjpiaah/image/upload/v1590239522/logo_xbdyyl.svg" />
+</h1>
 
-## Available Scripts
+<h4 align="center">
+  A react app to search and explore Pokemons
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-### `yarn start`
+![App Screenshot](https://res.cloudinary.com/derjpiaah/image/upload/v1590239387/dashboard-poke_j5oqsf.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<center><h3><a href="https://gitbubexplorer.netlify.app/">View Demo</a></h3></center>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :rocket: Technologies
 
-### `yarn test`
+This project was developed with the following technologies:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  [Typescript](https://www.typescriptlang.org/)
+-  [ReactJS](https://reactjs.org/)
+-  [React Router Dom](https://github.com/ReactTraining/react-router)
+-  [styled-components](https://www.styled-components.com/)
+-  [Axios](https://github.com/axios/axios)
+-  [Polished](https://polished.js.org/)
+-  [React-Icons](http://react-icons.github.io/react-icons/)
+-  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
-### `yarn build`
+## :information_source: How To Use
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this application, you'll need to have installed on your computer:
+  - [Git](https://git-scm.com)
+  - [Node.js v10.16][nodejs] or higher
+  - [Yarn v1.13][yarn] or higher
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+# Clone this repository
+$ git clone https://github.com/anaalicefig/pokesearch.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Go into the repository
+$ cd pokesearch
 
-### `yarn eject`
+# Install dependencies
+$ yarn
+or
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Run the app
+$ yarn start
+or
+$ npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/gobarber-api/blob/master/LICENSE) for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Made with love by Ana Alice :heart: :wave:
 
-## Learn More
+<br>
+[Get in touch with me!](https://www.linkedin.com/in/ana-alice-figueiredo/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
