@@ -1,7 +1,11 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { shade } from 'polished'
 
-export const Form = styled.form`
+interface FormProps {
+  hasError: boolean
+}
+
+export const Form = styled.form<FormProps>`
   margin-top: 130px;
   max-width: 700px;
 
@@ -10,9 +14,14 @@ export const Form = styled.form`
   input {
     width: 437px;
     height: 59px;
-    padding: 0 24px;
-    border: 0;
+    padding: 0 24px;    
     border-radius: 5px 0 0 5px;
+    border: 2px solid #FFF;
+    border-right: 0;
+    
+    ${(props) => props.hasError && css`
+      border-color:#c53030
+    `};
 
     &::placeholder {
       color: #A8A8B3;
@@ -34,6 +43,12 @@ export const Form = styled.form`
       background: ${shade(0.2, '#3698AC')};
     }
   }
+`
+
+export const Error = styled.span`
+  display: block;
+  color: #c53030;
+  margin-top: 8px;
 `
 
 export const Cards = styled.div`  
