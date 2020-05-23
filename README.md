@@ -60,7 +60,6 @@ This project is under the MIT license. See the [LICENSE](https://github.com/luke
 ---
 
 Made with love by Ana Alice :heart: :wave:
-
 <br>
 [Get in touch with me!](https://www.linkedin.com/in/ana-alice-figueiredo/)
 
